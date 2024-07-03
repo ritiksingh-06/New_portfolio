@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+
+    <!-- CDN for icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <style>
+      body {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #clickDiv {
+            /* position: fixed; */
+            position: absolute;
+            z-index: 11;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            transition: opacity 1.2s ease;
+        }
+  </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="clickDiv"><img src="https://static.vecteezy.com/system/resources/previews/009/374/901/non_2x/glass-breaked-with-debris-free-png.png" width="400px"></div>
+    <!-- <div id="clickDiv"><img src="src/assets/imgs/broken_glass.png" width="100px"></div> -->
+
+
+    <script type="module" src="/src/main.jsx"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+
+        var timeoutId = null;
+        var clickDiv = document.getElementById("clickDiv");
+
+
+          document.body.addEventListener("click", function(event) {
+
+
+              if (timeoutId !== null) {
+                // If there's a timeout pending, clear it
+                clearTimeout(timeoutId);
+            }
+
+            clickDiv.style.display = "block";
+  
+              // Calculate center position
+              var divWidth = clickDiv.offsetWidth;
+              var divHeight = clickDiv.offsetHeight;
+              var clickX = event.pageX;
+              var clickY = event.pageY;
+  
+              // Adjust position to center the div
+              var leftPos = clickX - divWidth / 2;
+              var topPos = clickY - divHeight / 2;
+  
+              // Apply styles
+              clickDiv.style.left = leftPos + "px";
+              clickDiv.style.top = topPos + "px";
+  
+              timeoutId = setTimeout(function() {
+                clickDiv.style.opacity = "0"; // Fade out the div
+                setTimeout(function() {
+                    clickDiv.style.display = "none"; // Hide the div after fading out
+                    clickDiv.style.opacity = "1"; // Reset opacity for future clicks
+                }, 500); // Wait for transition to complete (0.5s)
+            }, 2000); // 2 seconds for visibility before fading out
+          });
+      });
+  </script>
+  </body>
+</html>

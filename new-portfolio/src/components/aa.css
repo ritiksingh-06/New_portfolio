@@ -1,0 +1,41 @@
+@keyframes flip {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+
+  @keyframes flipBack {
+    from {
+      transform: rotateY(360deg);
+    }
+    to {
+      transform: rotateY(0deg);
+    }
+  }
+
+  .flip-animation:hover img{
+    animation: flip 0.5s forwards;
+  }
+
+  .flip-back-animation img{
+    animation: flipBack 0.5s forwards;
+  }
+
+
+
+
+  .live_icon:hover p{
+    display: block;
+  }
+  .code_icon:hover p{
+    display: block;
+  }
+  .flip-back-icon-animation{
+    animation: flipBack 0.5s forwards;
+  }
+  .flip-icon-animation:hover{
+    animation: flip 0.5s forwards;
+  }
