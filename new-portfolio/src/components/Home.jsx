@@ -13,7 +13,7 @@ function Home(){
                         </div>
                     </div>
                     <div className="text-3xl mt-12 font-medium text-center text-gray-600">Disha</div>
-                    <div className="text-6xl mt-3 text-center">Senior Corporate Trainer</div>
+                    <div className="text-3xl md:text-6xl lg:text-7xl mt-3 text-center">Senior Corporate Trainer</div>
                     <div className="text-center mt-4 text-xl text-gray-600">I have a passion for software. I enjoy creating tools that make life easier for people.</div>
                 </div>
 

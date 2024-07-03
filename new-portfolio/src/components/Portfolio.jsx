@@ -15,8 +15,8 @@ const Portfolio = () => {
 
 
 
-                <div className='imgg1 group w-96 md:w-80 h-56 md:h-52 rounded-2xl overflow-hidden border inset-0 bg-cover bg-center md:-rotate-3 lg:-rotate-3 filter grayscale hover:filter-none hover:rotate-0' style={{ backgroundImage: `url(${project1_img})` }}>
-                  <div className='w-full h-full translate-y-full group-hover:translate-y-0 duration-300 bg-gradient-to-b from-transparent to-black'>
+                <div className='imgg1 group w-96 md:w-80 h-56 md:h-52 rounded-2xl overflow-hidden border inset-0 bg-cover bg-center md:-rotate-3 lg:-rotate-3 duration-300 filter grayscale hover:filter-none hover:rotate-0' style={{ backgroundImage: `url(${project1_img})` }}>
+                  <div className='w-full h-full translate-y-full group-hover:translate-y-0 duration-500 bg-gradient-to-b from-transparent to-black'>
                     <div className='px-3 pt-2'>
                       <div className='text-center text-white text-3xl font-bold'>Lorem ipsum dolor sit amet.</div>
                       <div className='text-center text-white'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, explicabo.</p></div>
@@ -38,8 +38,8 @@ const Portfolio = () => {
                   </div>
                 </div>
 
-                <div className='-mt-3 hover:mt-0 imgg2 group w-96 md:w-80 h-56 md:h-52 rounded-2xl overflow-hidden border inset-0 bg-cover bg-center filter grayscale md:mt- hover:filter-none' style={{ backgroundImage: `url(${project2_img})` }}>
-                  <div className='w-full h-full translate-y-full group-hover:translate-y-0 duration-300 bg-gradient-to-b from-transparent to-black'>
+                <div className='-mt-3 hover:mt-0 imgg2 group w-96 md:w-80 h-56 md:h-52 rounded-2xl overflow-hidden border inset-0 bg-cover bg-center duration-300 filter grayscale hover:filter-none' style={{ backgroundImage: `url(${project2_img})` }}>
+                  <div className='w-full h-full translate-y-full group-hover:translate-y-0 duration-500 bg-gradient-to-b from-transparent to-black'>
                     <div className='px-3 pt-2'>
                       <div className='text-center text-white text-3xl font-bold'>Lorem ipsum dolor sit amet.</div>
                       <div className='text-center text-white'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, explicabo.</p></div>
@@ -61,8 +61,8 @@ const Portfolio = () => {
                   </div>
                 </div>
 
-                <div className='imgg3 group w-96 md:w-80 h-56 md:h-52 rounded-2xl overflow-hidden border inset-0 bg-cover bg-center md:rotate-3 lg:rotate-3 filter grayscale hover:filter-none hover:rotate-0' style={{ backgroundImage: `url(${project3_img})` }}>
-                  <div className='w-full h-full translate-y-full group-hover:translate-y-0 duration-300 bg-gradient-to-b from-transparent to-black'>
+                <div className='imgg3 group w-96 md:w-80 h-56 md:h-52 rounded-2xl overflow-hidden border inset-0 bg-cover bg-center md:rotate-3 lg:rotate-3 duration-300 filter grayscale hover:filter-none hover:rotate-0' style={{ backgroundImage: `url(${project3_img})` }}>
+                  <div className='w-full h-full translate-y-full group-hover:translate-y-0 duration-500 bg-gradient-to-b from-transparent to-black'>
                     <div className='px-3 pt-2'>
                       <div className='text-center text-white text-3xl font-bold'>Lorem ipsum dolor sit amet.</div>
                       <div className='text-center text-white'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, explicabo.</p></div>
@@ -84,8 +84,8 @@ const Portfolio = () => {
                   </div>
                 </div>
 
-                <div className='imgg1 group w-96 md:w-80 h-56 md:h-52 rounded-2xl overflow-hidden border inset-0 bg-cover bg-center md:rotate-3 lg:rotate-3 filter grayscale hover:filter-none hover:rotate-0' style={{ backgroundImage: `url(${project1_img})` }}>
-                  <div className='w-full h-full translate-y-full group-hover:translate-y-0 duration-300 bg-gradient-to-b from-transparent to-black'>
+                <div className='imgg1 group w-96 md:w-80 h-56 md:h-52 rounded-2xl overflow-hidden border inset-0 bg-cover bg-center md:rotate-3 lg:rotate-3 duration-300 filter grayscale hover:filter-none hover:rotate-0' style={{ backgroundImage: `url(${project1_img})` }}>
+                  <div className='w-full h-full translate-y-full group-hover:translate-y-0 duration-500 bg-gradient-to-b from-transparent to-black'>
                     <div className='px-3 pt-2'>
                       <div className='text-center text-white text-3xl font-bold'>Lorem ipsum dolor sit amet.</div>
                       <div className='text-center text-white'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, explicabo.</p></div>
@@ -107,8 +107,8 @@ const Portfolio = () => {
                   </div>
                 </div>
 
-                <div className='mt-3 hover:mt-0 imgg2 group w-96 md:w-80 h-56 md:h-52 rounded-2xl overflow-hidden border inset-0 bg-cover bg-center filter grayscale md:mt- hover:filter-none' style={{ backgroundImage: `url(${project2_img})` }}>
-                  <div className='w-full h-full translate-y-full group-hover:translate-y-0 duration-300 bg-gradient-to-b from-transparent to-black'>
+                <div className='mt-3 hover:mt-0 imgg2 group w-96 md:w-80 h-56 md:h-52 rounded-2xl overflow-hidden border inset-0 bg-cover bg-center duration-300 filter grayscale md:mt- hover:filter-none' style={{ backgroundImage: `url(${project2_img})` }}>
+                  <div className='w-full h-full translate-y-full group-hover:translate-y-0 duration-500 bg-gradient-to-b from-transparent to-black'>
                     <div className='px-3 pt-2'>
                       <div className='text-center text-white text-3xl font-bold'>Lorem ipsum dolor sit amet.</div>
                       <div className='text-center text-white'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, explicabo.</p></div>
@@ -130,8 +130,8 @@ const Portfolio = () => {
                   </div>
                 </div>
 
-                <div className='imgg3 group w-96 md:w-80 h-56 md:h-52 rounded-2xl overflow-hidden border inset-0 bg-cover bg-center md:-rotate-3 lg:-rotate-3 filter grayscale hover:filter-none hover:rotate-0' style={{ backgroundImage: `url(${project3_img})` }}>
-                  <div className='w-full h-full translate-y-full group-hover:translate-y-0 duration-300 bg-gradient-to-b from-transparent to-black'>
+                <div className='imgg3 group w-96 md:w-80 h-56 md:h-52 rounded-2xl overflow-hidden border inset-0 bg-cover bg-center md:-rotate-3 lg:-rotate-3 duration-300 filter grayscale hover:filter-none hover:rotate-0' style={{ backgroundImage: `url(${project3_img})` }}>
+                  <div className='w-full h-full translate-y-full group-hover:translate-y-0 duration-500 bg-gradient-to-b from-transparent to-black'>
                     <div className='px-3 pt-2'>
                       <div className='text-center text-white text-3xl font-bold'>Lorem ipsum dolor sit amet.</div>
                       <div className='text-center text-white'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, explicabo.</p></div>
