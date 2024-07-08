@@ -5,7 +5,7 @@ function About(){
         <>
             <div className="mt-6" id="about">
                 <div className="text-4xl text-center font-bold mt-12">About Me</div>
-                <div className="flex mt-6">
+                <div className="flex md:mx-4 mt-6">
                     <div className="bg-gray-200 w-1/2 hidden md:block lg:block"></div>
                     <div className="md:w-1/2 lg:w-1/2 w-full">
                         <div className="px-9">

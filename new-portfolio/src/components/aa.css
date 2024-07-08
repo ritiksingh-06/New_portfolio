@@ -1,3 +1,8 @@
+
+
+/* services page */
+
+
 @keyframes flip {
     from {
       transform: rotateY(0deg);
@@ -27,6 +32,10 @@
 
 
 
+  /* portfolio page */
+
+
+
   .live_icon:hover p{
     display: block;
   }
@@ -38,4 +47,36 @@
   }
   .flip-icon-animation:hover{
     animation: flip 0.8s forwards;
+  }
+
+
+
+  /* contact page */
+
+  .group input{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+  }
+  .group input:hover {
+    box-shadow: none;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-weight: 700;
+  }
+  .group input:active{
+    background-color: gray;
+  }
+
+
+
+  /* home page */
+
+
+
+  .flip-back-social-icon-animation i{
+    animation: flipBack 0.5s forwards;
+  }
+  .flip-social-icon-animation:hover i{
+    animation: flip 0.8s forwards;
+    /* scale: 1.2; */
   }
